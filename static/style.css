@@ -1,0 +1,188 @@
+body{
+    /*background: #ffd35c;*/
+    padding: 2%;
+  }
+h1, form{
+  margin: 1%;
+}
+input[type=submit]{
+  font-size: large;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: black;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border: none;
+  color: white;
+  padding: 15px;
+  text-decoration: none;
+  width: auto;
+  margin: auto;
+  cursor: pointer;
+}
+
+a{
+  color: white;
+}
+.card{
+  background-color: black;
+  color: white;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  align-self: center;
+  margin: 1%;
+  padding: 1%;
+  height: auto;
+  /* border-radius: 5%; */
+}
+.showtimeQuickSelect {
+    position: fixed;
+    right: 5%;
+    top: 5%;
+    background-color: white;
+    width: 320px;
+    border: solid 10px #BBB;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.SelectTitle {
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: bold;
+    background: #A0E1F6;
+    padding: 2px 10px;
+    margin: 15px 0 2px 0;
+}
+/* Form */
+form input[type="text"],form input[type="email"],form input[type="password"],form select,form textarea {
+    position: relative;
+    -webkit-appearance: none;
+    display: block;
+    font-size: 16px;
+    line-height: 24px;
+    padding-left: 10px;
+    background: #fff;
+    background: rgba(255, 255, 255, 0.75);
+    width: 100%;
+    border-radius: 4px;
+    box-shadow: inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.05);
+    border: solid 2px rgba(38, 188, 244, 0.85);
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -ms-transition: all 0.35s ease-in-out;
+    transition: all 0.35s ease-in-out;
+    margin-bottom: 6px;
+}
+
+form input[type="text"]:focus,form input[type="email"]:focus,form input[type="password"]:focus,form select:focus,form textarea:focus {
+    box-shadow: 0 0 2px 1px #8ebebc;
+    background: #fff;
+}
+
+#theaterShowtimeBlock div.oneLine  {
+	clear: left;
+	width: 86%;
+	margin: 15px 0;
+	border-bottom: solid 1px #906633;
+}
+
+#theaterShowtimeTable li.filmTitle  {
+	width: 85%;
+	color: #082960;
+	font-weight: bold;
+	background-color:#CCE4C8;
+	font-size: 1.25em;
+	text-align:center;
+	padding-bottom: 4px;
+	border-radius: 6px;
+	border: solid 1px #BBB;
+}
+a {
+    color: #2288cc;
+    text-decoration: none;
+}
+@media screen and (min-width: 737px) {
+
+        #theaterShowtimeBlock ul  {
+            width: 42%;
+            font-size: large;
+            float: left;
+            /*margin-top: 20px;*/
+            margin: 10px 2px 2px 2px;
+            border: solid 0px #999;
+            height:100%;
+        }
+
+        #theaterShowtimeTable li {
+            color: #606060;
+            font-size: 0.95em;
+            line-height: 1.6em;
+        }
+
+        #filmShowtimeBlock ul  {
+            width: 19%;
+            float: left;
+            /*margin-top: 20px;*/
+            margin: 10px 2px 2px 2px;
+            border: solid 0px #999;
+            height:100%;
+        }
+
+}
+
+@media screen and (min-width: 737px) and (max-width: 1200px) {
+
+        #theaterShowtimeBlock ul  {
+            width: 46%;
+            float: left;
+            /*margin-top: 20px;*/
+            margin: 10px 2px 2px 2px;
+            border: solid 0px #999;
+            height:100%;
+        }
+
+        #theaterShowtimeTable li {
+            color: #606060;
+            font-size: 0.95em;
+            line-height: 1.6em;
+        }
+
+        #filmShowtimeBlock ul  {
+            width: 19%;
+            float: left;
+            /*margin-top: 20px;*/
+            margin: 10px 2px 2px 2px;
+            border: solid 0px #999;
+            height:100%;
+        }
+
+}
+
+@media screen and (max-width: 736px) {
+
+        #theaterShowtimeBlock ul  {
+            width: 90%;
+            /*float: left;*/
+            /*margin-top: 20px;*/
+            margin: 10px 2px 2px 2px;
+            border: solid 0px #999;
+            height:100%;
+        }
+
+        #theaterShowtimeTable li {
+            text-align: center;
+            color: #606060;
+            font-size: 1.05em;
+            line-height: 1.6em;
+        }
+
+        #filmShowtimeBlock ul  {
+            width: 40%;
+            float: left;
+            /*margin-top: 20px;*/
+            margin: 10px 2px 2px 2px;
+            border: solid 0px #999;
+            height:100%;
+        }
+
+}

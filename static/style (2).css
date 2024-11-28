@@ -1,0 +1,237 @@
+@font-face {
+    font-family: CathaySans_WCorp_Lt;
+    src: url("https://cdn.jivox.com/files/76754/NewTC_Font/CathaySans_WCorp_Lt.woff2");
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    user-select: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+:root{
+   --width: 160px;
+   --height: 600px;
+   --green: #006565;
+}
+#container{
+   position: relative;
+   width: var(--width);
+   height: var(--height);
+   border: 1px solid #eee;
+   overflow: hidden;
+   border: solid 1.5px #000000;
+   opacity: 0;
+   background-color: white;
+}
+#bg1{
+   height: 100%;
+   width: 100%;
+   padding: 0%;
+   position: absolute;
+}
+#bg2,#bg3,#bg4,#bg5,#wheel, #gradient2,#gradient3,#gradient4{
+    opacity: 0;
+    top: 0;
+    position: absolute;
+}
+#copy2,#copy3,#copy4{
+    opacity: 0;
+    position: absolute;
+}
+#bg2, #gradient2{
+    top: 0;
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    padding: 3% 4% 0% 4%;
+}
+#bg3,#bg4,  #gradient3,  #gradient4{
+    top: 95.1%;
+    width: 83%;
+    left: 8.6%;
+}
+#bg5{
+    width: 83%;
+    top: 95.1%;
+    left: 7.8%;
+}
+#wheel{
+    width: 77%;
+    left: -38.5%;
+    opacity: 0;
+    top: -9.6%;
+    z-index: 9;
+}
+#tag{
+    opacity: 0;
+    z-index: 9;
+    position: absolute;
+    left: 0.2%;
+}
+.text3{
+    font-size: 16px;
+}
+.tagcopy{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 57%;
+    top: 3.9%;
+    left: 29.9%;
+    opacity: 0;
+    z-index: 9;
+}
+.copy{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.7);
+    width: 85%;
+    height: 25%;
+    top: 54.1%;
+    left: 7.3%;
+    opacity: 1;
+}
+img{
+    width: 100%;
+}
+#endFrame{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
+#vapourBg{
+    opacity: 0;
+    position: absolute;
+    top: -0.6%;
+    left: -2.7%;
+    width: 110%;
+}
+#brandFlyLogo{
+    position: absolute;
+    width: 28px;
+    left: 76.2%;
+    opacity: 0;
+    top: 2%;
+}
+.endFrameCopy{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    text-align: center;
+    text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.7);
+    width: 85%;
+    height: 13%;
+    top: 57.6%;
+    left: 7%;
+    opacity: 0;
+}
+.termsC{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    text-align: center;
+    width: 70%;
+    height: 6%;
+    top: 76.7%;
+    left: 15%;
+    opacity: 0;
+}
+#endFrameCTA{
+    position: absolute;
+    padding: 6px 11px;
+    left: 16%;
+    width: 68%;
+    text-align: center;
+    color: #006563e3;
+    bottom: 23%;
+    background-image: none;
+    background-color: white;
+    border-width: 1px;
+    border-color: white;
+    border-style: solid;
+    z-index: 999;
+    opacity: 0;
+}
+#brandLogo{
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    opacity: 0;
+}
+.text{
+    color: white;
+    text-align: center;
+    font-family: GT-Walsheim-light;
+    font-size: 17.7px;
+    letter-spacing: 1px;
+}
+/* .text2,.text4{
+    font-size: 13px;
+} */
+.tagText{
+    color: #006564;
+    font-size: 10.4224px;
+    letter-spacing: .3px;
+    font-family: GT-Walsheim-light;
+}
+.endFrameCTA{
+    font-family: GT-Walsheim-light;
+    font-size: 11px;
+    letter-spacing: 2.4px;
+}
+.endFrameText{
+    color: white;
+    font-size: 19px;
+    font-family: GT-Walsheim-light;
+    letter-spacing: 1px;
+}
+.termsC_Text {
+    color: white;
+    font-size: 7px;
+    letter-spacing: 0.32px;
+    font-family: GT-Walsheim-light;
+}
+.TC_tagText{
+    font-size: 12.1224px;
+    letter-spacing: 2.4px;
+    font-family: CathaySans_WCorp_Lt;
+}
+.TC_copy{
+    font-size: 27.3px;
+    letter-spacing: 2.4px;
+    font-family: CathaySans_WCorp_Lt;
+    line-height: 1.3;
+    top: 55.7%;
+}
+.TC{
+    font-family: CathaySans_WCorp_Lt;
+}
+.TC_endFrame{
+    letter-spacing:2.4px;
+    font-family: CathaySans_WCorp_Lt;
+    font-size: 25.2px;
+    line-height: 1.3;
+}
+.TC_CTA{
+    font-family: CathaySans_WCorp_Lt;
+    font-size: 12.5px;
+    letter-spacing: 2.4px;
+}
+.TC_text2,.TC_text4,.TC_text3{
+    font-size: 23.7px;
+}
+/* .TC_tagcopy{
+    top: 4%;
+} */

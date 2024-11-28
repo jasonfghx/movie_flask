@@ -1,0 +1,519 @@
+﻿
+	@media screen and (min-width: 737px) {
+
+			#filmCastDataBlock {
+				/*width:105%;*/
+			}
+			
+			#filmCastDataBlock ul  {
+				width: 31%;
+				display: inline-block;
+				vertical-align: top;
+				border: dashed 1px #966;
+				padding:10px;
+				margin: 2px 6px;	
+			}
+			
+			#filmCastDataBlock ul.ad  {
+				border:none;
+			}
+			
+			.image.Poster {
+				float: left;
+				margin: 0 20px 0 5px;
+				width: 160px;
+				border-radius: 12px;
+				border: solid 2px #969633;
+				box-shadow: 6px 10px 4px rgba(140,140,120,0.8);
+			}
+
+	}
+
+				
+
+	@media screen and (min-width: 737px) and (max-width: 1200px) {
+
+			#filmCastDataBlock ul  {
+				width: 31%;
+				display: inline-block;
+				vertical-align: top;
+				border: dashed 1px #966;
+				padding:10px;		
+			}
+
+			.image.Poster {
+				float: left;
+				margin: 0 20px 0 5px;
+				width: 160px;
+				border-radius: 12px;
+				border: solid 2px #969633;
+				box-shadow: 6px 10px 4px rgba(140,140,120,0.8);
+			}
+	}
+
+				
+
+	@media screen and (max-width: 736px) {
+
+			#filmCastDataBlock ul  {
+				width: 90%;
+				border: dashed 1px #966;
+				padding:10px;		
+			}
+
+			.image.Poster {
+				width: 240px;
+				margin-bottom: 20px;
+				border-radius: 2px;
+				border: solid 2px #969633;
+				box-shadow: 6px 10px 4px rgba(140,140,120,0.8);
+			}
+
+	}
+
+/*** --------------------------- ***/  
+
+			#main-wrapper  a {
+				text-decoration: none;
+				color: #51A8F9; 
+			}
+
+			#main-wrapper a:hover {
+				color: #c66;
+				border-color: #6699cc;
+			}
+
+			.filmTitle {
+				font-size: 1.8em;
+				line-height: 1.2em;
+				font-family: 'Open Sans Condensed', sans-serif;
+				font-weight: 700;
+				color: #841E68;
+				margin: 20px 0 20px 10px;
+				border-bottom: 0px solid #FF6699;
+			}
+			
+			#filmTagBlock {
+				font-size: 1.1em;
+				margin: 20px 0 10px 10px;
+			}
+
+		/*#filmTagBlock span {
+				
+			}*/
+
+			#filmTagBlock ul.runtime {
+				margin-bottom: 5px;
+			}
+
+			#filmTagBlock ul.runtime li {
+				display: inline-block;
+				font-size: 0.8em;
+				font-weight: 600;
+				margin-right: 10px;
+			}
+
+			#filmTagBlock .ratingBlock {
+				float:right;
+				width:110px; 
+				height:240px;
+				margin-top:0px; 
+				border:dashed 0px #cc0000;
+				text-align: center;
+			}
+
+			#filmTagBlock ul.ratingData {
+				/*float:right; */
+			}
+
+			#filmTagBlock ul.ratingData li {
+				margin-bottom: 10px;
+				font-size:0.75em;
+				line-height: 1.05em;
+			}
+
+			#filmTagBlock ul.ratingData li.filmRating {
+				background: transparent url("/images/star5.gif") left top no-repeat;				
+			}
+
+			#filmTagBlock ul.ratingData li.thisRating {
+				font-size: 20pt;
+				color: #F96767; 
+			}
+
+			#filmTagBlock ul.ratingData li.noRating {
+				background: transparent url("/images/star5_0.gif") left top no-repeat;
+				width:101px;
+				height:30px;
+				/*border: solid 1px #cc0;*/
+				text-indent: -10px;
+			}
+
+			.video_view {
+				overflow:hidden;
+				clear:both;
+				border:solid 0px #cc9090; 
+				margin:10px;
+				padding-top:28px;
+				text-align:center;
+			}
+			
+			
+		ul.bbs_list li {
+			background: transparent url("/images/list30.png") no-repeat;		
+			padding-left: 30px;
+			border: solid 1px #ccc;
+			border-bottom: none;
+		}
+	
+		ul.bbs_list li:last-child {
+			border: solid 1px #ccc;
+		}
+	
+	ul.addFavorite li {
+			background: transparent url("/images/list30.png") no-repeat;		
+			padding-left: 30px;
+		}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		
+		
+			
+			.box.post p {
+				font-size: 15pt;
+				line-height: 24pt;
+				margin: 0 0 10px 0;
+				color: #888;
+			}
+
+			.box.post .date {
+				text-decoration: none;
+				font-size: 12pt;
+				font-weight: bold;
+				margin-top: 40px;
+			}
+
+		.image.filmListPoster {
+			float: left;
+			margin: 0 20px 0 5px;
+			width: 160px;
+			border-radius: 12px;
+			border: solid 2px #969633;
+			box-shadow: 6px 10px 4px rgba(140,140,120,0.8);
+		}
+
+		.image.filmListAllPoster {
+			/*float: left;*/
+			margin: 10px 0 6px 0;
+			width: 102px;
+			height: 140px;
+			border-radius: 0px;
+			border: solid 1px #969633;
+			box-shadow: 3px 5px 2px rgba(140,140,120,0.8);
+		}
+
+		.image.filmListPhoto {
+			float: right;
+			margin: 10px 20px;
+			width: 150px;
+			box-shadow: 4px 4px 4px rgba(160,160,120,0.6);
+		}
+
+		
+		ul.page li {
+			position: relative;
+			display: inline-block;
+			margin: 0 5px;
+			border: solid 1px #F08690;
+			padding: 0 8px;
+			background: #FFF;
+			font-size: 11pt;
+			cursor: pointer;			
+		}
+
+		ul.page li: hover {
+			color: #C00;
+		}
+		
+		ul.page li.current {
+			border: solid 1px #CCC;			
+			color: #C00;
+			font-weight: bold;
+			cursor: none;
+		}
+
+		ul.page li.listAll {
+			border: 0;
+			background: none;			
+		}
+
+		.pageList{
+			margin-top: 20px;
+			text-align:center;
+			text-decoration: none;
+			font-size: 9pt;
+			clear: both;	
+		}	
+		
+		.greyLine {
+			border-bottom: solid 2px #E7EAE8;
+			clear:both;
+		}
+		
+		ul.filmListAll {
+			border: solid 1px #999;
+			background: none;
+			padding:5px;			
+		}
+
+		ul.filmListAll li {
+			position: relative;
+			display: inline-block;
+			width: 150px;
+			margin: 0 5px;
+			border: solid 0px #F08690;
+			padding: 0 5px;
+			font-size: 11pt;
+			line-height: 14pt;			
+		}
+
+/******* facebook share fb_share ***********/
+			.fb_share {
+				margin-top: 60px;
+			}
+
+
+/******* filmCollection ***********/
+			.filmCollection {
+				margin-top: 10px;
+				width: 250px;
+				height: 230px;
+				border: dashed 1px #999;
+				margin-bottom: 5px;
+				font-size: 12px;
+				color: #666;
+				padding: 5px 5px 5px 10px;
+			}
+			
+			.filmCollection p {
+				/*height:10px;*/
+				line-height:5px;
+				margin: 10px 0 5px 0;
+			}
+
+	.filmCollection input[type="button"] {
+		font-size: 12px;
+		/*width: 60px;*/
+		font-weight: 100;
+		background: #b1ddab;
+		color: #999;
+		border: 1px solid;
+		border-radius: 2px;
+		outline: 4;
+		cursor: pointer;
+		padding:2px;
+		vertical-align:middle;
+		margin-left:20px;
+		/*display: inline-block;*/
+	}
+
+
+/******* 評分 ***********/
+.filmRating {
+	 position: relative;
+	 border: 0px solid #f00;
+	 width:250px;
+	 height:25px;
+	 margin-bottom:12px;
+}
+
+.filmRatingResult {
+	 font-size: 2.6em;
+	 font-weight:bold;
+	 color: #F96767;
+	 margin: -5px 0 0 110px;
+	 padding: 0 6px;
+	 border: 1px solid #826F16;
+	 position: absolute;
+}
+
+.filmRating ul {
+	 list-style: none;
+	 position: relative;
+	 width: 100px;
+	 height: 20px;
+	 background: transparent url("/images/stars_red.gif") -100px 0 no-repeat;
+	 padding: 0;
+	 margin:0;
+	 overflow: hidden;
+	 float: left;
+}
+
+/** display rating result  **/
+.filmRating ul.s10 {background-position: -80px 0;}
+.filmRating ul.s20	{background-position: -60px 0;}
+.filmRating ul.s30 {background-position: -40px 0;}
+.filmRating ul.s40 {background-position: -20px 0;}
+.filmRating ul.s50 {background-position: 0 0;}
+.filmRating ul.s15 {background: transparent url("/images/stars_red_p.gif") -60px 0 no-repeat;}
+.filmRating ul.s25	{background: transparent url("/images/stars_red_p.gif") -40px 0 no-repeat;}
+.filmRating ul.s35 {background: transparent url("/images/stars_red_p.gif") -20px 0 no-repeat;}
+.filmRating ul.s45 {background: transparent url("/images/stars_red_p.gif") 0px 0 no-repeat;}
+
+.filmRating li {
+	 margin: 0;
+	 padding: 0;
+	 cursor: pointer; 
+	/*display: inline-block; float:left; 這兩個都不能用在此，會亂版面*/
+ 	/* display: block;*/
+	 position: absolute;
+	 width: 10px;
+	 height: 20px;
+	 text-indent: -150px;
+	 overflow: hidden;
+	 z-index: 20;
+}
+
+.filmRating li.s10 {left: 0; width:15px;}
+.filmRating li.s15 {left: 15px;}
+.filmRating li.s20 {left: 25px;}
+.filmRating li.s25 {left: 35px;}
+.filmRating li.s30 {left: 45px;}
+.filmRating li.s35 {left: 55px;}
+.filmRating li.s40 {left: 65px;}
+.filmRating li.s45 {left: 75px;}
+.filmRating li.s50 {left: 85px; width:15px;}
+
+.filmRating li:hover {
+	 background: transparent url("/images/oneStar.gif") left top repeat-x;
+	 left: 0;
+	 z-index: 1;
+}
+
+.filmRating li.s10:hover {width: 20px;}
+.filmRating li.s15:hover {width: 32px;}
+.filmRating li.s20:hover {width: 40px;}
+.filmRating li.s25:hover {width: 52px;}
+.filmRating li.s30:hover {width: 60px;}
+.filmRating li.s35:hover {width: 72px;}
+.filmRating li.s40:hover {width: 80px;}
+.filmRating li.s45:hover {width: 92px;}
+.filmRating li.s50:hover {width: 100px;}
+
+	
+.filmRating img.loading {
+	 position: absolute;
+	 bottom: 0;
+	 margin-left: 50%;
+	 left: -57px;
+	 z-index: 99;
+}
+
+/******* 加入收藏 ***********/
+	.LA-favorite {
+	 margin-bottom: 5px;
+	}
+	.filmFavorite {
+		background: transparent url("/images/favorite_0.gif") no-repeat;
+		padding: 5px 0 5px 30px;
+		color: #3366cc;
+		font-weight: bold;
+		cursor: pointer; 
+	}
+	.filmFavorite:hover {
+		background: transparent url("/images/favorite_1.gif") no-repeat;
+		color: #cc3333;
+	}
+	.myfavorite {
+		background: transparent url("/images/favorite_Y.gif") no-repeat;
+		padding: 5px 0 5px 30px;
+		font-weight: bold;
+		color: #BB3388;
+		font-weight: bold;
+		/*cursor: pointer; */
+	}
+
+/******* Like 推薦影片 ***********/
+	.LA-like {
+	 margin-bottom: 15px;
+	}
+	.filmLike {
+		background: transparent url("/images/like_0.gif") no-repeat;
+		padding: 5px 0 5px 30px;
+		font-weight: bold;
+		cursor: pointer; 		
+	}
+	.filmLike:hover {
+		background: transparent url("/images/like_1.gif") no-repeat;
+		color: #cc3333;
+	}
+	.myLike_Y {
+		background: transparent url("/images/like_Y.gif") no-repeat;
+		padding: 5px 0 5px 40px;
+		font-weight: bold;
+		color: #BB3388;
+	}
+	.myLike {
+		background: transparent url("/images/like_Y.gif") no-repeat;
+		padding: 5px 0 5px 80px;
+		font-weight: bold;
+		color: #BB3388;
+	}
+
+/******* 影片 給笑臉 /哭臉 ***********/
+
+	.LA-smile {
+	 margin-top: 15px;
+	}
+	.filmSmile {
+		background: transparent url("/images/smile_0.png") no-repeat;
+		padding: 10px 0 15px 44px;
+		font-weight: bold;
+		cursor: pointer; 		
+	}
+	.filmSmile:hover {
+		background: transparent url("/images/smile_1.png") no-repeat;
+		color: #cc3333;
+	}
+	.filmSad {
+		background: transparent url("/images/sad_0.png") no-repeat;
+		padding: 10px 0 15px 44px;
+		font-weight: bold;
+		cursor: pointer; 		
+	}
+	.filmSad:hover {
+		background: transparent url("/images/sad_1.png") no-repeat;
+		color: #cc3333;
+	}
+	.filmSmileY {
+		background: transparent url("/images/smile_Y.png") no-repeat;
+		padding: 10px 0 15px 80px;
+		font-weight: bold;
+		/*cursor: pointer; 		*/
+	}
+	.filmSadY {
+		background: transparent url("/images/sad_Y.png") no-repeat;
+		padding: 10px 0 15px 80px;
+		font-weight: bold;
+		/*cursor: pointer; 		*/
+	}
+
+.ratingbutton {
+	font-weight: 400;
+	font-size: 14px;
+	padding: 0px 20px 2px 20px;
+	border: 0px solid #ccc;
+	background: #b1ddab;
+	border-radius: 6px;
+	outline: 0;
+	cursor: pointer;
+	margin: 2px 30px 0 0;
+	float: right;
+}

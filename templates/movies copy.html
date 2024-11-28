@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>電影</title>
+    <!--不請求icon-->
+    <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">
+    <!-- <link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet"/> -->
+    <link href="../static/style.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.8/vue.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<style>
+    li {
+        font-size: 20px;
+        padding-bottom: 5%;
+    }
+
+    [v-cloak] {
+        display: none;
+    }
+</style>
+
+<body>
+<div id="app">
+<p>${theater2}}</p>
+</div>
+    <script type="text/javascript">
+        var app = new Vue({
+            el: "#app",
+            delimiters: ['${', '}}'],
+            data: {
+                search: '',
+                userInput: [],
+                selected: "",
+                selected1: "",
+                selected2: "",
+                selected3: "",
+                result: "",
+                theater1: '',
+                theater2: "123",
+            },
+            watch: {
+                theater2: function (value) {
+                    console.log(this.theater2, '1');
+                }
+            }
+        })
+    </script>
+</body>
+
+
+
+
+
+</html>
